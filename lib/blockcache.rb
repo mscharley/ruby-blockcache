@@ -49,6 +49,7 @@ class BlockCache
         set_value(@values, @blocks[name].call(*args), [name, *args])
       rescue
         # dump errors to the console, but otherwise, keep on trucking
+        puts $!.message
         puts $!.backtrace
         set_value(@values, @default_value, [name, *args])
       end
