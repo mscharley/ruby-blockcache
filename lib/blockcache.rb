@@ -33,7 +33,7 @@ class BlockCache
     @values = {}
   end
   
-  def add(name, timeout=nil, &block)
+  def add(name, timeout, &block)
     @blocks[name] = block
     @timeouts[name] = timeout
   end
