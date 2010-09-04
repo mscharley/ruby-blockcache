@@ -1,6 +1,6 @@
 # BlockCache
 
-by Matthew Scharley
+by Matthew Scharley  
 http://github.com/mscharley/ruby-blockcache
 
 ## Overview
